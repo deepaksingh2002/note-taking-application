@@ -1,9 +1,10 @@
 import React from 'react'
-
+import SignUp from './components/sign_up/SignUp';
+import SignIn from './components/sign_in/SignIn';
 function App() {
   return (
     <div>
-      <h1 className='text-3xl text-blue-600'>note-taking application</h1>
+      <SignIn />
     </div>
   )
 }
